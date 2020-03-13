@@ -1,6 +1,6 @@
 def prime?(a)
-  b=a.abs
-  if a=2 || a%2==1
+  a.abs=b
+  if b=2 || b%2==1
     true 
   else
     false 
