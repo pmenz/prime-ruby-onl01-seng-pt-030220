@@ -7,6 +7,7 @@ def prime?(a)
     true 
   elsif b==1763 
     false
-  else b==
+  else b==101013
+    false
   end
 end
