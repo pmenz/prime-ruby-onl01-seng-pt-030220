@@ -7,3 +7,4 @@ def prime?(a)
   else 
     false
   end
+end
