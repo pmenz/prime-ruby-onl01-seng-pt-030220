@@ -1,3 +1,3 @@
 def prime?(a)
   
-  if a
+end
