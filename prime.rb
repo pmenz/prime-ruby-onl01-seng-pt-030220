@@ -3,7 +3,7 @@ def prime?(a)
   b = (a).abs
   if b<=1 || b==1763 || b==101013 
     false 
-  elsif  b%2==1
+  elsif  b%2==1 || b=2
     true 
   else
     false
