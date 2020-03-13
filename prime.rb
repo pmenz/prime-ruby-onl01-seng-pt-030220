@@ -1,7 +1,8 @@
 def prime?(a)
-  if a=2 
+  if a=2 || a%2==1
     true 
-  elsif
-    a%2==1 
+  else
+    false 
+  end
     
 end
