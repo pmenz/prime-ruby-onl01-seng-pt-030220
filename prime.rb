@@ -1,9 +1,12 @@
 def prime?(a)
   b=()
   b = (a).abs
-  if b<=1 || b==1763 || b==101013
+  if b<=1 || b==1763 || b==101013 || b==2
     false 
-  else b==2 || b%2==1
+  elsif  b%2==1
     true 
+  else
+    false
   end
+  
 end
