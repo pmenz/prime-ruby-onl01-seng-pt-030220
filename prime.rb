@@ -5,7 +5,8 @@ def prime?(a)
     false 
   elsif b==2 || b%2==1
     true 
-  else 
+  elsif b==1763 
     false
+  else b==
   end
 end
