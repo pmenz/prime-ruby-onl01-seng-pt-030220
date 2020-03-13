@@ -1,10 +1,9 @@
 def prime?(a)
- 
-  a.abs=b
-  if b=2 || b%2==1
+  b = (a).abs
+  if b==2 || b%2==1
     true 
-  else
+  elsif b==1
     false 
+  else 
+    false
   end
-    
-end
